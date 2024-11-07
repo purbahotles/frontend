@@ -1,9 +1,9 @@
 ## Installation Guide
 
 This guide will walk you through the process of setting up both the frontend and backend for this project, as well as running the project using Docker.
-## Frontend Installation
-# Versioning Information (Frontend)
+Frontend Installation
 
+# Versioning Information (Frontend)
 ```bash
     Node: v20.11.0
     NPM Packages:
@@ -23,34 +23,28 @@ This guide will walk you through the process of setting up both the frontend and
       vue@3.5.12
 ```
 
-# Steps to Install Frontend
+## Steps to Install Frontend
 
-Clone the Repository:
-
+Clone the repository:
 ```bash
-git clone https://github.com/purbahotles/todo-app/frontend.git
+git clone https://github.com/purbahotles/todo-app.git
+cd todo-app
+git checkout frontend
 ```
-Navigate to the Project Directory:
-
+Navigate to the frontend directory:
 ```bash
 cd frontend
 ```
-
-
-Install Dependencies:
-
+Install dependencies:
 ```bash
 npm install
 # or
 yarn install
 ```
-
-
-Start the Development Server:
-
+Start the development server:
 ```bash
-    npm run dev
-    # or
-    yarn dev
+npm run dev
+# or
+yarn dev
 ```
 This will start the project locally on a specified port (usually http://localhost:3000).
