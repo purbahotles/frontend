@@ -12,7 +12,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
     "@pinia/nuxt": "^0.7.0",
-    "axios": "^1.7.7",
+    "axios": "^1.8.2",
     "defu": "^6.1.4",
     "nitropack": "^2.10.2",
     "nuxt": "^3.14.0",
